@@ -5,3 +5,4 @@ deepface
 opencv-python-headless
 numpy
 supabase
+tf-keras
