@@ -268,7 +268,7 @@ async def detect_emotion(
             img_path=frame,
             actions=["emotion"],
             detector_backend="opencv",
-            enforce_detection=True,
+            enforce_detection=False, # Supaya tak throw error terus kalau muka kurang jelas
             silent=True,
         )
 
