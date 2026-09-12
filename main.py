@@ -267,7 +267,7 @@ async def detect_emotion(
         result = DeepFace.analyze(
             img_path=frame,
             actions=["emotion"],
-            detector_backend="retinaface",
+            detector_backend="opencv",
             enforce_detection=True,
             silent=True,
         )
